@@ -1,0 +1,10 @@
+name: CapturePoint
+main: me.endureblackout.capturepoint.CapturePointMain
+version: 1.0.7
+description: >
+             Test. port plugin.
+commands:
+    create:
+        description: Starter command.
+    removepoint:
+        description: Starter command.
