@@ -14,7 +14,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.util.Vector;
 
-import net.md_5.bungee.api.ChatColor;
+import or.bukkit.chatcolor;
 
 public class PlayerListener implements Listener {
 	CapturePointMain plugin;
