@@ -15,8 +15,6 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.Plugin;
 
-import com.sk89q.worldedit.bukkit.WorldEditPlugin;
-
 
 
 public class CapturePointRegion implements CommandExecutor, Listener {
@@ -24,12 +22,6 @@ public class CapturePointRegion implements CommandExecutor, Listener {
 	CapturePointMain plugin;
 	public CapturePointRegion(CapturePointMain instance) {
 		this.plugin = instance;
-	}
-	
-	public WorldEditPlugin getWorldEdit() {
-		Plugin p = Bukkit.getServer().getPluginManager().getPlugin("WorldEdit");
-		if(p instanceof WorldEditPlugin) return (WorldEditPlugin) p;
-		else return null;
 	}
 	
 	@EventHandler
